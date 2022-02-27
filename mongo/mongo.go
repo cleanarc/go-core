@@ -51,6 +51,8 @@ func ParseEnv() ConnConfig {
 	}
 }
 
+// newConnString parses a ConnConfig and returns the corresponding connection
+// string for use in a new mongoDB client.
 func newConnString(cfg ConnConfig) string {
 	return fmt.Sprintf(
 		"mongodb://%v:%v@%v:%v",
