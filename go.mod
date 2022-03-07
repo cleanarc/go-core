@@ -1,4 +1,4 @@
-module github.com/cleanarc/go-core
+module github.com/cleanarc/go-core/v2
 
 go 1.15
 
