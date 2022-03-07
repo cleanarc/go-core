@@ -9,6 +9,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
+// ConnConfig encapsulates the fields and options of a mongoDB connection.
 type ConnConfig struct {
 	User     string
 	Password string
